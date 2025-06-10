@@ -1,9 +1,0 @@
-container exec be pwd
-by default if we done anything will be done in root directory.
-=> docker container exec be ls /
-=> i want to create a new folder, changes will be done in that folder.
-=> vi Dockerfile
-=> RUN mkdir /backend
-=> :wq
-------------------------------------------
-------------------------------------------
